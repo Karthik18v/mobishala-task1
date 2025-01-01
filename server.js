@@ -7,7 +7,6 @@ require("dotenv").config();
 const cors = require("cors");
 
 const { API_KEY, APP_SECRET,  MONGO_URI } = process.env;
-const PORT = 4000;
 const HMS_API_BASE = "https://api.100ms.live/v2";
 
 
